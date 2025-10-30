@@ -1,0 +1,21 @@
+ecommerce-catalog/
+│
+├── models/
+│   └── productModel.js
+│
+├── controllers/
+│   └── productController.js
+│
+├── routes/
+│   └── productRoutes.js
+│
+├── app.js
+└── package.json
+
+mkdir ecommerce-catalog
+cd ecommerce-catalog
+npm init -y
+npm install express mongoose nodemon
+"scripts": {
+  "start": "nodemon app.js"
+}
